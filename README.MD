@@ -32,7 +32,9 @@ Reference: [Django Tutorials - Corey Schafer](https://www.youtube.com/playlist?l
 Download source code from Github: `https://github.com/Nanashi0it/django_blog.git`
 
 **NOTE BEFORE RUNNING PROJECT:**
+
 Before running the application you need to create some environment variables for the **password reset** function:
+
     - `EMAIL_USER` for `EMAIL_HOST_USER`: Email address that is used to send password reset email.
     - `EMAIL_PASSWORD` for `EMAIL_HOST_PASSWORD`: Password of the email you used above. This password should be [App Password](https://support.google.com/mail/answer/185833?hl=vi) if you user Gmail.
 
